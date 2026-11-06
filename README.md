@@ -1,1 +1,0 @@
-# TEDGuide_AI

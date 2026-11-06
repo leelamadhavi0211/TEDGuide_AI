@@ -1,0 +1,216 @@
+.journey-container {
+  min-height: 100vh;
+  background: #0f172a;
+  color: white;
+  padding: 30px;
+}
+
+/* HEADER */
+.journey-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.goal {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+.goal span {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+/* TIMELINE */
+.timeline {
+  max-width: 850px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* STEP CARD */
+.step-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #1e293b;
+  padding: 18px;
+  border-radius: 12px;
+}
+
+/* STEP NUMBER */
+.step-number {
+  width: 40px;
+  height: 40px;
+  background: #3b82f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+/* STEP CONTENT */
+.step-content {
+  flex: 1;
+}
+
+.step-content h3 {
+  margin: 0 0 10px 0;
+  color: #ffffff;
+}
+
+/* ===================== */
+/* TED TALK CARD */
+/* ===================== */
+
+.talk-card {
+  background: #0f172a;
+  border: 1px solid #334155;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* TOP INFO */
+.talk-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.talk-title {
+  margin: 0;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.talk-speaker {
+  margin: 0;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* WATCH BUTTON */
+.watch-btn {
+  margin-top: 5px;
+  background: #3b82f6;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 12px;
+  width: fit-content;
+  transition: 0.2s;
+}
+
+.watch-btn:hover {
+  background: #2563eb;
+}
+
+/* ===================== */
+/* FEEDBACK ROW */
+/* ===================== */
+
+.feedback-row {
+  display: flex;
+  gap: 8px;
+}
+
+/* SMALL BUTTONS */
+.like-btn,
+.dislike-btn {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* LIKE */
+.like-btn {
+  background: #22c55e;
+  color: white;
+  font-size: 11px;
+  padding: 3px 6px;   /* 👈 reduces width */
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  width: auto;        /* important */
+  min-width: 50px;    /* keeps it small but readable */
+  line-height: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-btn:hover {
+  background: #16a34a;
+}
+
+/* DISLIKE */
+/* .dislike-btn {
+  background: #ef4444;
+  color: white;
+} */
+.dislike-btn {
+  background: #ef4444;
+  color: white;
+  font-size: 11px;
+  padding: 3px 6px;   /* 👈 reduces width */
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  width: auto;        /* important */
+  min-width: 50px;    /* keeps it small but readable */
+  line-height: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.dislike-btn:hover {
+  background: #dc2626;
+}
+
+/* LOADING */
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+.journey-navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.journey-navbar button {
+  width: auto;
+  min-width: 110px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.journey-navbar button:hover {
+  background-color: #2563eb;
+}
